@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="gallerypickGalleryBaseTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+
+    <style name="gallerypickGalleryTheme" parent="gallerypickGalleryBaseTheme" />
+
+
+    <style name="gallerypickgalleryBtnBackground" parent="gallerypickGalleryBaseTheme">
+        <item name="android:background">@null</item>
+    </style>
+
+
+    <!--PopupWindow-->
+    <style name="gallerypickpopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/gallery_pick_in_fade</item>
+        <item name="android:windowExitAnimation">@anim/gallery_pick_out_fade</item>
+    </style>
+
+</resources>

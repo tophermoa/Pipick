@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163678064847",
+    "firebase_url": "https://pipickuploadimage.firebaseio.com",
+    "project_id": "pipickuploadimage",
+    "storage_bucket": "pipickuploadimage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163678064847:android:e8ec61740c6383a1",
+        "android_client_info": {
+          "package_name": "com.moa.pipick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163678064847-admigqhhkkak8fhq95fbibheeo9vkdik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moa.pipick",
+            "certificate_hash": "6269f631405c09845f03bcba3f2c0a55c2696e96"
+          }
+        },
+        {
+          "client_id": "163678064847-mn6puk46m17sgt05720ukel5c68o1v36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAQjERVUUB0ljKpCvyPz0gJ13uIvVcD6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163678064847-mn6puk46m17sgt05720ukel5c68o1v36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

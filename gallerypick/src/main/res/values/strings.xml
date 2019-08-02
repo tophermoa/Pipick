@@ -1,0 +1,10 @@
+<resources>
+    <string name="gallerypickgallery_all_folder" translatable="false">All Image</string>
+    <string name="gallerypickgallery_shoot" translatable="false">Take Photo</string>
+    <string name="gallerypickgallery_finish">( %1$d / %2$d )done</string>
+    <string name="gallerypickgallery_gallery">Album</string>
+    <string name="gallerypickgallery_send">Send</string>
+    <string name="gallerypickgallery_msg_no_camera">No Camera</string>
+    <string name="gallerypickgallery_folder_name">Folder Name</string>
+    <string name="gallerypickgallery_photo_num">%d </string>
+</resources>

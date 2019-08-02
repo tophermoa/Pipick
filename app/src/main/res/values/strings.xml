@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PiPick</string>
+
+
+    <string name="open">gambar dari gallery</string>
+
+    <string name="isMulSelect">Multi Select</string>
+    <string name="mulMaxSize">Jumlah Gambar (max : 9)</string>
+    <string name="isShowCamera">Camera</string>
+    <string name="isCrop">Crop On</string>
+    <string name="Glide">Glide</string>
+    <string name="Fresco">Fresco</string>
+    <string name="Picasso">Picasso</string>
+    <string name="OpenCamera">Camera Default</string>
+
+    //walkthrough
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Welcome</string>
+    <string name="slide_1_desc">First time we meet to give you fascinating wallpaper that you want</string>
+
+    <string name="slide_2_title">Discover</string>
+    <string name="slide_2_desc">Explore more about what you imagine</string>
+
+    <string name="slide_3_title">Share</string>
+    <string name="slide_3_desc">Share your experience with some magic here</string>
+
+</resources>

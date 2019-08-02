@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.moa.pipick.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#6A73FF">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="108dp"
+            android:layout_height="118dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/pic_header" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:text="My Story Life"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt"
+            android:layout_alignStart="@+id/txt"
+            android:layout_alignLeft="@+id/txt"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Explore Your Mindset"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="103dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/txt2"
+            android:layout_alignLeft="@+id/txt2"
+            android:layout_alignBottom="@+id/image"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/add_btn" />
+        //android:text="@string/open" />
+
+        <Button
+            android:id="@+id/btnOpenCamera"
+            android:layout_width="103dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/txt2"
+            android:layout_marginTop="30dp"
+            android:text="@string/OpenCamera"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/btn"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+        <Switch
+            android:id="@+id/swMulSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:checked="false"
+            android:text="@string/isMulSelect"
+            android:textSize="16sp" />
+        <Switch
+            android:id="@+id/swShowCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etMulMaxSize"
+            android:checked="true"
+            android:textColor="@color/white"
+            android:text="@string/isShowCamera"
+            android:textSize="16sp" />
+        <Switch
+            android:id="@+id/swIsCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnOpenCamera"
+            android:checked="false"
+            android:text="@string/isCrop"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etMulMaxSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swMulSelect"
+        android:hint="@string/mulMaxSize"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rgImageLoader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swShowCamera"
+        android:checkedButton="@+id/rbGlide"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbGlide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Glide" />
+
+        <RadioButton
+            android:id="@+id/rbPicasso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Picasso" />
+
+        <RadioButton
+            android:id="@+id/rbFresco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fresco" />
+
+
+    </RadioGroup>
+
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvResultPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn"
+        android:layout_below="@+id/swIsCrop" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+
+        <Button
+            android:id="@+id/btnpindah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="pindah" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
